@@ -1,13 +1,12 @@
-package com.example.catty
+package com.example.catty.ui.screens.game
 
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.catty.databinding.ItemFoodBinding
-import java.lang.IndexOutOfBoundsException
+import com.example.catty.models.FoodItem
 
 
 class FoodAdapter : ListAdapter<FoodItem,RecyclerView.ViewHolder>(FoodItemDiffCallback()) {

@@ -1,4 +1,4 @@
-package com.example.catty
+package com.example.catty.models
 
 data class FoodItem(
     var image: Int = -1,
