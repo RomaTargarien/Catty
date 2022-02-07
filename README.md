@@ -1,5 +1,6 @@
 # Catty
 <img width="136" alt="catty" src="https://user-images.githubusercontent.com/70408155/152795391-9ed3deb7-6b4c-4b27-b930-44bc5fbcd675.png">
+
 A very simple game that demonstrates how ListAdapter can be used to refresh items.
 ### Technologies that were used:
 - ListAdapter for RecyclerView
