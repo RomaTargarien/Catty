@@ -11,12 +11,10 @@ import com.example.catty.models.FoodItem
 
 class FoodAdapter : ListAdapter<FoodItem,RecyclerView.ViewHolder>(FoodItemDiffCallback()) {
 
-
     inner class FoodItemViewHoler(val binding: ItemFoodBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(item: FoodItem) {
             binding.ivFood.setImageResource(item.image)
-            binding.tvNumber.text = item.number.toString()
         }
     }
 
@@ -40,6 +38,5 @@ class FoodAdapter : ListAdapter<FoodItem,RecyclerView.ViewHolder>(FoodItemDiffCa
         override fun areContentsTheSame(oldItem: FoodItem, newItem: FoodItem): Boolean =
             oldItem == newItem
     }
-
 }
 
