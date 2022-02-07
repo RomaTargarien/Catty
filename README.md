@@ -12,4 +12,5 @@ A very simple game that demonstrates how ListAdapter can be used to refresh item
 - [Find center item of the RecyclerView when the button is pressed](https://stackoverflow.com/questions/34586637/get-center-visible-item-of-recycleview-when-scrolling)
 - [Making carousel RecyclerView](https://itzone.com.vn/en/article/android-custom-view-carousel-recyclerview-with-kotlin/)
 
+### Demonstration
 <https://user-images.githubusercontent.com/70408155/152800566-6b622db2-52a9-41d2-bd98-0b0cafb30489.mp4>
